@@ -1,0 +1,106 @@
+.Hero {
+  height: 100vh;
+  background-color: #fef1e6;
+  font-family: "Quicksand" !important;
+  width: 100%;
+  z-index: -6;
+}
+h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 60px;
+  line-height: 60px;
+  color: #0e0924;
+  padding-top: 72px;
+  padding-left: 32px;
+}
+
+p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3e375c;
+  padding-top: 9px;
+  padding-left: 32px;
+}
+
+#landingpageimg {
+  position: absolute;
+  width: 1076px;
+  left: 243px;
+  top: 176px;
+  /* z-index: -2; */
+}
+
+.floating-card {
+  position: absolute;
+  width: 467px;
+  height: 233px;
+  left: 0px;
+  top: 351px;
+  background: #fdd4b2;
+  z-index: 100;
+}
+
+#Scrollimg {
+  position: absolute;
+  width: 84px;
+  height: 85.71px;
+  left: 680px;
+  top: 780px;
+}
+
+@media (max-width: 700px) {
+  .Hero {
+    height: 70vh;
+    /* width: 100%; */
+    z-index: -6;
+  }
+  .floating-card {
+    position: absolute;
+    width: 60%;
+    height: 14%;
+    left: 0px;
+    top: 340px;
+    background: #fdd4b2;
+    z-index: 2;
+  }
+
+  h1 {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 18px;
+    padding-left: 32px;
+  }
+
+  p {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3e375c;
+  }
+
+  #Scrollimg {
+    /* display: none; */
+    top: 520px;
+    width: 44px;
+    height: 45.71px;
+    left: 160px;
+  }
+
+  #landingpageimg {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 0px;
+    z-index: 1;
+  }
+}
