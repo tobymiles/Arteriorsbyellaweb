@@ -55,7 +55,7 @@ p {
 
 @media (max-width: 700px) {
   .Hero {
-    height: 70vh;
+    height: 60vh;
     /* width: 100%; */
     z-index: -6;
   }
@@ -79,7 +79,7 @@ p {
     padding-left: 32px;
   }
 
-  p {
+  .Hero-paragrah p {
     font-family: "Quicksand";
     font-style: normal;
     font-weight: 500;

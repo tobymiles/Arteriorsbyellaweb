@@ -40,7 +40,7 @@ function Landingsection() {
     <div className='Hero'>
       <div className='floating-card'>
         <h1>We Create</h1>
-        <p>Lasting Impression</p>
+        <p id="Hero-paragrah">Lasting Impression</p>
       </div>
       <img src={Landingpageimg1} id='landingpageimg' alt='landingpageimg' />
       <img src={Scrollimg1} id='Scrollimg' alt='Scrollimg' />

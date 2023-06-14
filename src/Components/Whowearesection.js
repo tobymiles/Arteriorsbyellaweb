@@ -1,6 +1,7 @@
 import React from "react";
 import "./Whowearesection.css";
 import Whoweare from "../Assets/whoweare.png";
+import Sectionitem from "../Assets/section2item.png";
 
 function Whowearesection() {
   return (
@@ -12,7 +13,7 @@ function Whowearesection() {
         <div>
           <div className='copy1 copy'>
             <h3>Who We Are</h3>
-            <p>Interior Design and Décor Experts</p>
+            <p id='textcolor'>Interior Design and Décor Experts</p>
           </div>
           <div className='copy2 copy'>
             <h3>What We Do</h3>
@@ -56,6 +57,9 @@ function Whowearesection() {
             <a href='/contact'>Connect</a>
           </button>
         </div>
+      </div>
+      <div id='Sectionitem'>
+        <img src={Sectionitem} alt='Sectionitem' />
       </div>
     </div>
   );

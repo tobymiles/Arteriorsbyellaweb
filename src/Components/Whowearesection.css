@@ -4,7 +4,7 @@
 
 .About-Us {
   background-color: #f9f9f9;
-  height: 120vh;
+  height: 138vh;
 }
 
 .wrapper {
@@ -15,6 +15,10 @@
   width: 1200px;
 }
 
+#textcolor {
+  color: #de6806;
+}
+
 #aboutsection > img {
   width: 535px;
   left: 123px;
@@ -23,7 +27,7 @@
   padding-left: 123px;
 }
 
-h2 {
+h3 {
   font-size: 26px;
   font-weight: 700px;
   color: #0e0924;
@@ -43,7 +47,7 @@ h2 {
   font-size: 36px !important;
   line-height: 40px;
   padding-left: 0px;
-  color: #170e3b;
+  color: #3e375c;
 }
 
 .copy2 {
@@ -54,6 +58,7 @@ h2 {
 .copy2 > p {
   font-weight: 400;
   font-size: 16px !important;
+  line-height: 24px;
   padding-left: 0px;
   color: #3e375c;
 }
@@ -66,8 +71,16 @@ h2 {
 .copy3 > p {
   font-weight: 400;
   font-size: 16px !important;
+  line-height: 24px;
   padding-left: 0px;
   color: #3e375c;
+}
+
+.copy3 > p > span > #short-text {
+  font-weight: 600;
+  font-size: 16px !important;
+  padding-left: 0px;
+  color: #0e0924;
 }
 
 .btn-connect {
@@ -93,10 +106,17 @@ h2 {
   font-weight: 600;
 }
 
+#Sectionitem > img {
+  position: absolute;
+  width: 607.15px;
+  height: 177px;
+  top: 1834px;
+}
+
 @media (max-width: 700px) {
   .About-Us {
     background-color: #f9f9f9;
-    height: 120vh;
+    height: 100vh;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -105,6 +125,7 @@ h2 {
 
   .wrapper {
     display: block;
+    margin: auto;
   }
 
   #aboutsection > img {
@@ -127,5 +148,82 @@ h2 {
 
   .row {
     width: 100%;
+  }
+
+  #Sectionitem > img {
+    display: none;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 700px;
+    color: #0e0924;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copy1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 24px;
+  }
+
+  .copy1 > p {
+    font-family: "Kristen" !important;
+    font-weight: 400;
+    font-size: 26px !important;
+    line-height: 40px;
+    padding-left: 0px;
+    color: #3e375c;
+  }
+
+  .copy2 > p {
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 24px;
+    padding-left: 0px;
+    color: #3e375c;
+  }
+
+  .copy3 > p {
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 24px;
+    padding-left: 0px;
+    color: #3e375c;
+  }
+
+  .copy3 > p > span > #short-text {
+    font-weight: 600;
+    font-size: 12px !important;
+    padding-left: 0px;
+    color: #0e0924;
+  }
+
+  .btn-connect {
+    width: 122px;
+    height: 56px;
+    background: #de6806;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(247, 116, 7, 0.1);
+    border-radius: 4px;
+  }
+
+  .btn-connect a {
+    text-decoration: none;
+    color: #fef1e6;
+  }
+
+  #short-text {
+    font-weight: 600;
+  }
+
+  #Sectionitem > img {
+    position: absolute;
+    width: 607.15px;
+    height: 177px;
+    top: 1834px;
   }
 }
