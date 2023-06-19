@@ -4,7 +4,7 @@
 
 .About-Us {
   background-color: #f9f9f9;
-  height: 138vh;
+  height: 140vh;
 }
 
 .wrapper {
@@ -16,6 +16,7 @@
 }
 
 #textcolor {
+  font-family: "Kristen";
   color: #de6806;
 }
 
@@ -110,7 +111,7 @@ h3 {
   position: absolute;
   width: 607.15px;
   height: 177px;
-  top: 1834px;
+  top: 1710px;
 }
 
 @media (max-width: 700px) {

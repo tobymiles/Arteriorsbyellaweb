@@ -3,6 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className='Navbar'>
       <span className='nav-logo'>Arteriorsbyella</span>

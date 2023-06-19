@@ -16,7 +16,7 @@ h1 {
   padding-left: 32px;
 }
 
-p {
+#Hero-paragrah {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 500;
@@ -79,21 +79,24 @@ p {
     padding-left: 32px;
   }
 
-  .Hero-paragrah p {
+  #Hero-paragrah {
     font-family: "Quicksand";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    padding-top: 3px;
+    padding-left: 16px;
     line-height: 16px;
+    text-align: center;
     color: #3e375c;
   }
 
   #Scrollimg {
-    /* display: none; */
-    top: 520px;
+    display: none;
+    /* top: 520px;
     width: 44px;
     height: 45.71px;
-    left: 160px;
+    left: 160px; */
   }
 
   #landingpageimg {
