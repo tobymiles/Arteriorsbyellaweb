@@ -1,10 +1,7 @@
-/* body {
-  background-color: #f9f9f9;
-} */
-
 .About-Us {
   background-color: #f9f9f9;
-  height: 140vh;
+  height: auto;
+  padding-bottom: 60px;
 }
 
 .wrapper {
@@ -112,6 +109,16 @@ h3 {
   width: 607.15px;
   height: 177px;
   top: 1710px;
+}
+
+/* on scroll css */
+.fade-in-container {
+  opacity: 0;
+  transition: opacity 5s;
+}
+
+.fade-in {
+  opacity: 1;
 }
 
 @media (max-width: 700px) {

@@ -1,11 +1,31 @@
 import React from "react";
+import { useEffect, useRef } from "react";
 import "./Whowearesection.css";
 import Whoweare from "../Assets/whoweare.png";
 import Sectionitem from "../Assets/section2item.png";
 
 function Whowearesection() {
+    const ref = useRef();
+
+    useEffect(() => {
+      const fadeInElement = ref.current;
+      const handleScroll = () => {
+        const elementPosition = fadeInElement.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+
+        if (elementPosition < screenHeight) {
+          fadeInElement.classList.add("fade-in");
+        }
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
   return (
-    <div className='About-Us'>
+    <div className='About-Us fade-in-container' ref={ref}>
       <div className='wrapper row'>
         <div id='aboutsection'>
           <img src={Whoweare} alt='aboutarteriorsbyellaimg' />

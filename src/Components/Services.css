@@ -3,8 +3,8 @@ body {
 }
 
 .Service-details {
-  height: 130vh;
-  padding-top: 16px;
+  height: auto;
+  padding-bottom: 60px;
   background-color: #ffffff !important;
   color: #0e0924;
 }
