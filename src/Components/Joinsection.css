@@ -1,0 +1,48 @@
+.Joinsection {
+  background-color: #fef1e6;
+  height: auto !important;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.Joinsection h4 {
+  font-size: 28px;
+  padding-bottom: 16px;
+}
+
+.Joinsection p {
+  font-size: 12px;
+  color: #78738d;
+}
+
+.join-input {
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-top: 30px;
+  width: 400px;
+  height: 46px;
+  padding-left: 10px;
+  border: #a09caf;
+  border-radius: 4px;
+}
+
+.btn-join {
+  width: 400px;
+  height: 46px;
+  margin-top: 30px;
+  background-color: #170e3b;
+  color: #fef1e6;
+  border: none;
+  border-radius: 4px;
+}
+
+#policy-text {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #f70516;
+}

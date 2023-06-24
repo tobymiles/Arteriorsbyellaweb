@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import Projectsection from "./Components/Projectsection";
 import Foundersection from "./Components/Foundersection";
 import Blogsection from "./Components/Blogsection";
+import Joinsection from "./Components/Joinsection";
 import Footer from "../src/Layouts/Footer";
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
         <Projectsection />
         <Foundersection />
         <Blogsection />
+        <Joinsection />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
