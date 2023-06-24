@@ -27,6 +27,9 @@ function Blogsection() {
               bundle of joy. Motherhood is a joyous experience and planning a
               nursery is one of those pr...
             </p>
+            <button className='btn-connect5'>
+              <a href='/contact'>Read More</a>
+            </button>
           </div>
         </div>
         <div className='Blog-img2'>
@@ -40,13 +43,18 @@ function Blogsection() {
             </div>
             <br></br>
             <hr className='solid'></hr>
-            <p>
-              From conceptualisation to creation, we aim to bring to life
-              aesthetically pleasing interior spaces. We ensure all our design
-              elements are well balanced with a view to providing visually
-              appealing, yet functional interiors, true to our clients’ needs.
-              Our creative flair is ever present in all our design
-            </p>
+            <>
+              <p>
+                From conceptualisation to creation, we aim to bring to life
+                aesthetically pleasing interior spaces. We ensure all our design
+                elements are well balanced with a view to providing visually
+                appealing, yet functional interiors, true to our clients’ needs.
+                Our creative flair is ever present in all our design
+              </p>
+              <button className='btn-connect5'>
+                <a href='/contact'>Read More</a>
+              </button>
+            </>
           </div>
         </div>
         <div className='Blog-img3'>
@@ -66,6 +74,9 @@ function Blogsection() {
               comes with a lot of decision making that requires domain
               knowledge. We assist clients with beautifying
             </p>
+            <button className='btn-connect5'>
+              <a href='/contact'>Read More</a>
+            </button>
           </div>
         </div>
       </div>

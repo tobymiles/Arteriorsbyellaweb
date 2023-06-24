@@ -67,23 +67,23 @@
   height: 400px;
 }
 
-.btn-connect2 {
-  width: 162px;
-  height: 56px;
-  background: #de6806;
+.btn-connect5 {
+  width: 100px;
+  height: 40px;
+  background-color: #de6806;
   border: none;
-  box-shadow: 4px 4px 4px rgba(247, 116, 7, 0.1);
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  margin: 40px 0px;
 }
 
-.btn-connect2 a:hover {
+.btn-connect5:hover {
   background-color: #d26710;
 }
 
-.btn-connect a {
+.btn-connect5 a {
   text-decoration: none;
-  color: #fef1e6;
+  color: #ffffff;
 }
 
 h4 {
@@ -132,7 +132,7 @@ h4 {
   margin-top: 0px;
   padding-top: 0px;
   width: 385px;
-  height: 250px;
+  height: 320px;
 }
 
 .blog-status {
@@ -193,7 +193,7 @@ hr.solid {
 
   #blog-background {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 30px;
     /* height: 250px; */
   }
 

@@ -12,7 +12,7 @@
   z-index: 6000;
 }
 
-button {
+.btn-nav {
   width: 90px;
   height: 40px;
   background: #de6806;
@@ -21,7 +21,7 @@ button {
   border-radius: 4px;
 }
 
-button a {
+.btn-nav a {
   text-decoration: none;
   color: #fef1e6;
 }
