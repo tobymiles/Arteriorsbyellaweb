@@ -21,7 +21,7 @@ body {
   color: #3e375c;
 }
 
-.wrapper2 {
+.service-wrapper {
   width: 1200px;
   padding-top: 120px;
   padding-left: 103px;
@@ -153,8 +153,12 @@ h4 {
     color: #3e375c;
   }
 
-  .wrapper2 {
-    width: 100%;
+  .service-wrapper {
+    /* width: 100%; */
+    text-align: center;
+    /* margin: auto; */
+    padding-left: 0px;
+    padding-top: 100px;
   }
 
   #background-1 {
@@ -194,5 +198,11 @@ h4 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  .service-img {
+    content: " ";
+    width: 0px;
+    height: 400px;
   }
 }

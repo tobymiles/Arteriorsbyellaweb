@@ -8,7 +8,7 @@ function Services() {
   return (
     <div className='Service-details'>
       <div className='Services'>
-        <div className='wrapper2'>
+        <div className='service-wrapper'>
           <div>
             <h3>Services</h3>
           </div>
@@ -17,7 +17,7 @@ function Services() {
           </div>
           <div>
             <p id='small-copy'>
-              Let us help you create a space that<br></br> reflects your unique
+              Let us help you create a space that reflects your unique
               personality
             </p>
           </div>

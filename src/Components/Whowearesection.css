@@ -114,7 +114,7 @@ h3 {
 /* on scroll css */
 .fade-in-container {
   opacity: 0;
-  transition: opacity 5s;
+  transition: opacity 2s;
 }
 
 .fade-in {
@@ -124,7 +124,6 @@ h3 {
 @media (max-width: 700px) {
   .About-Us {
     background-color: #f9f9f9;
-    height: 100vh;
     text-align: center;
     justify-content: center;
     align-items: center;

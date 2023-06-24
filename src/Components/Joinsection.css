@@ -46,3 +46,17 @@ input {
   margin-top: 10px;
   color: #f70516;
 }
+
+@media (max-width: 700px) {
+  input {
+    width: 80%;
+  }
+
+  .Joinsection p {
+    padding: 0px 20px;
+  }
+
+  .btn-join {
+    width: 80%;
+  }
+}

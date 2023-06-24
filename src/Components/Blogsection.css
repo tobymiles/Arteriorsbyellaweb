@@ -194,7 +194,11 @@ hr.solid {
   #blog-background {
     width: 100%;
     padding: 0 30px;
-    /* height: 250px; */
+    height: 100%;
+  }
+
+  .Blog-gallery {
+    display: block;
   }
 
   .Blog-img1 > img {
@@ -228,5 +232,9 @@ hr.solid {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  hr.solid {
+    width: 100%;
   }
 }

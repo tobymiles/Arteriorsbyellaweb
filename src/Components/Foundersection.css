@@ -108,3 +108,25 @@
 .fade-in {
   opacity: 1;
 }
+
+@media (max-width: 700px) {
+  .About-founder img {
+    width: 100%;
+    height: auto;
+  }
+
+  .About-founder {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  .founder-details {
+    padding: 28px 20px;
+    text-align: center;
+  }
+
+  #founder-copy-small {
+    padding: 28px 20px;
+  }
+}

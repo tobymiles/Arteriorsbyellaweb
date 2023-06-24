@@ -138,4 +138,51 @@ h5 {
     padding-top: 60px;
     margin: auto;
   }
+
+  .project-brief {
+    width: 100%;
+  }
+
+  .project-img {
+    display: block;
+    padding-bottom: 40px;
+  }
+
+  .project-links {
+    width: 100%;
+    font-size: 12px;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-copy {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 40px;
+  }
+
+  .tab p {
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+
+  .project-copy h3 {
+    padding-left: 0px;
+  }
+
+  .project-copy button {
+    margin-left: 0px;
+  }
+
+  .project-copy p {
+    padding-left: 0px;
+  }
+
+  .project-img > img {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+  }
 }
