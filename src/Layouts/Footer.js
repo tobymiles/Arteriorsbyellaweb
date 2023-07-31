@@ -5,8 +5,8 @@ function Footer() {
   return (
     <div className=''>
       <div className='Footer'>
-        <span className='nav-logo'>Arteriorsbyella</span>
-        <div className='nav-items'>
+        <span className='nav-logo-footer'>Arteriorsbyella</span>
+        <div className='nav-items-footer'>
           <a href='/home'>Home</a>
           <a href='/service'>Service</a>
           <a href='/blog'>Blog</a>
@@ -58,7 +58,7 @@ function Footer() {
           </svg>
         </div>
       </div>
-      {/* <div className='divider'></div> */}
+      <hr className='solid-line'></hr>
     </div>
   );
 }
