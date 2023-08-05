@@ -11,6 +11,8 @@ body {
 
 .Services {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Services > .wrapper > p {

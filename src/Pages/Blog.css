@@ -1,17 +1,23 @@
 html,
 body {
-  text-align: center;
   margin: auto;
 }
 
 .blog {
   height: auto;
+  text-align: center;
 }
 
 .blog-heading h3 {
   font-size: 60px;
   color: #ffffff;
   padding-top: 60px;
+  text-align: center;
+}
+
+.recentblogheader h5 {
+  font-size: 28px !important;
+  padding-top: 30px;
 }
 
 .blog-heading {

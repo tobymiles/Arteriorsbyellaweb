@@ -25,7 +25,7 @@ function Whowearesection() {
     };
   }, []);
   return (
-    <div className='About-Us fade-in-container' ref={ref}>
+    <div className='About-Us fade-in-container'id="about" ref={ref}>
       <div className='wrapper row'>
         <div id='aboutsection'>
           <img src={Whoweare} alt='aboutarteriorsbyellaimg' />

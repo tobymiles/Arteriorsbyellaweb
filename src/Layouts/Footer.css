@@ -2,6 +2,10 @@ body {
   font-family: "Quicksand";
 }
 
+.footer-bg {
+  background-color: #0e0924;
+}
+
 .Footer {
   height: 252px;
   display: flex;
@@ -9,8 +13,9 @@ body {
   align-items: center;
   padding-top: 16px;
   margin: auto;
-  background-color: #0e0924;
+
   color: #fef1e6 !important;
+  width: 1200px;
 }
 
 .Footer > .social-icons > svg {

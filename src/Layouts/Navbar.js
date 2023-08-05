@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
       <span className='nav-logo'>Arteriorsbyella</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to='/'>Home</Link>
-        <a href='/about'>About Us</a>
-        <Link to='#service'>Service</Link>
-        <a href='/gallery'>Gallery</a>
+        <HashLink to={"/#about"}>About Us</HashLink>
+        <HashLink to={"/#service"}>Service</HashLink>
+        <Link to='/gallery'>Gallery</Link>
         <Link to='/blog'>Blog</Link>
         <button className='btn-nav'>
           <a href='/contact'>Contact</a>

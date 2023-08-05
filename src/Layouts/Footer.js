@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className=''>
+    <div className='footer-bg'>
       <div className='Footer'>
         <span className='nav-logo-footer'>Arteriorsbyella</span>
         <div className='nav-items-footer'>
@@ -58,7 +58,7 @@ function Footer() {
           </svg>
         </div>
       </div>
-      <hr className='solid-line'></hr>
+      {/* <hr className='solid-line'></hr> */}
     </div>
   );
 }

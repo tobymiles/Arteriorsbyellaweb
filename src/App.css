@@ -9,6 +9,7 @@ body {
   font-family: "Quicksand" !important;
   margin: auto;
   background-color: #fef1e6;
+  scroll-behavior: smooth;
 }
 
 .loader {

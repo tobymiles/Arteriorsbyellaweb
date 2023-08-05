@@ -6,7 +6,7 @@ import Arteriorimg3 from "../Assets/arteriorsbyella3.png";
 
 function Services() {
   return (
-    <div className='Service-details'>
+    <div className='Service-details' id="service">
       <div className='Services'>
         <div className='service-wrapper'>
           <div>

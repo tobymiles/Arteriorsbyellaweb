@@ -2,7 +2,7 @@ import React from "react";
 import "./Landingsection.css";
 // import Slider from "react-slick";
 
-import Landingpageimg1 from "../Assets/img1.png";
+import Landingpageimg1 from "../Assets/img1.jpg";
 import Scrollimg1 from "../Assets/scroll-down-arrow.gif";
 
 function Landingsection() {

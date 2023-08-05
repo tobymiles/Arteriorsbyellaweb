@@ -4,7 +4,8 @@ import Navbar from "../src/Layouts/Navbar";
 import Homepage from "./Pages/Homepage";
 import Footer from "../src/Layouts/Footer";
 import Blog from "./Pages/Blog";
-import Services from "./Components/Services";
+import Gallery from "./Pages/Gallery";
+// import Services from "./Components/Services";
 import Errorpage from "./Components/Errorpage";
 import api from "./Client";
 // import { Server } from "./Config";
@@ -53,7 +54,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/blog' element={<Blog />} />
-          <Route path='#services' element={<Services />} />
+          <Route path='gallery' element={<Gallery />} />
           <Route path='*' element={<Errorpage />} />
         </Routes>
         <Footer />

@@ -15,6 +15,10 @@ function Blog() {
       </div>
 
       {/* Blog section */}
+      <div className='recentblogheader'>
+        {" "}
+        <h5>Recent Blog Post</h5>
+      </div>
 
       <div className='Blog-gallery'>
         <div className='Blog-img1'>
