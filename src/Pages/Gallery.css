@@ -14,11 +14,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
 }
 
 .Artimg > img {
   height: 400px;
   width: 400px;
+  object-fit: cover;
 }
 
 /* .Gallerybody {

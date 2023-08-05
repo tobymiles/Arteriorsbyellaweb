@@ -6,7 +6,7 @@ import Arteriorimg3 from "../Assets/arteriorsbyella3.png";
 
 function Services() {
   return (
-    <div className='Service-details' id="service">
+    <div className='Service-details' id='service'>
       <div className='Services'>
         <div className='service-wrapper'>
           <div>
@@ -47,11 +47,14 @@ function Services() {
             <div id='background-1'>
               <h4>Space Planning</h4>
               <p>
-                From conceptualisation to creation, we aim to bring to life
-                aesthetically pleasing interior spaces. We ensure all our design
-                elements are well balanced with a view to providing visually
-                appealing, yet functional interiors, true to our clients’ needs.
-                Our creative flair is ever present in all our design
+                We visualize, then analyze different interior sections based on
+                their intended use and turn them into purposeful and gorgeous
+                spaces, ensuring that their uses are maximized for efficient and
+                effective living. It’s a behind the scenes activity, fundamental
+                to achieving excellent results. We do this by balancing
+                structure, symmetry, circulation and lighting with the
+                functional uses of each space. The idea is to create optimal
+                interiors that deliver on balance, practicality and style.
               </p>
             </div>
           </div>

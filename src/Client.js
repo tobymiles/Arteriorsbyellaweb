@@ -1,5 +1,5 @@
 import { Client, Databases, Account } from "appwrite";
-import { Server } from "../src/Config";
+import { Server } from "./Config";
 
 let api = {
   sdk: null,
@@ -10,15 +10,18 @@ let api = {
     }
 
     let client = new Client();
-    client
-      .setEndpoint("https://cloud.appwrite.io/v1")
-      .setProject("64aaa243700fd9c20743");
+    client.setEndpoint(Server.endpoint).setProject(Server.project);
 
     const account = new Account(client);
     const database = new Databases(client);
 
     api.sdk = { database, account };
     return api.sdk;
+  },
+
+  getAccount: () => {
+    let account = api.provider().account;
+    return account.get();
   },
 
   createSession: (email, password) => {

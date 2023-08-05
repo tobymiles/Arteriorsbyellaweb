@@ -1,6 +1,8 @@
 export const Server = {
-  endpoint: process.env.APP_ENDPOINT,
-  project: process.env.APP_PROJECT,
-  collectionID: process.env.APP_COLLECION_ID,
-  databaseID: process.env.APP_DATABASE_ID,
+  endpoint: "https://cloud.appwrite.io/v1",
+  project: "64aaa243700fd9c20743",
+  collectionID: "64aaa465525bdcb03129",
+  databaseID: "64aaa40f6f1f7fe37cac",
+  accountEmail: "ekwealortobechukwu22@gmail.com",
+  accountPwd: "animalfarm1$",
 };
