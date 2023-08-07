@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Components/Blogsection";
-import Arteriorimg1 from "../Assets/arteriorsbyellaimg1.png";
+// import Arteriorimg1 from "../Assets/arteriorsbyellaimg1.png";
 // import Arteriorimg2 from "../Assets/arteriorsbyella2.png";
 // import Arteriorimg3 from "../Assets/arteriorsbyella3.png";
 import "./Blog.css";
@@ -34,6 +34,7 @@ function Blog() {
         <h3>
           Welcome to <br></br> Our Blog
         </h3>
+        <p>Find out what's new and see what we're up to</p>
       </div>
 
       {/* Blog section */}
@@ -46,7 +47,7 @@ function Blog() {
       <div className='Blog-gallery'>
         {blogPosts.map((post) => (
           <div key={post?.id} className='Blog-img1'>
-            <img src={Arteriorimg1} alt='Arteriorimg1' />
+            <img src={post?.imageURL} alt='Arteriorimg1' />
             <div id='blog-background'>
               <h4>{post.blogTitle}</h4>
               <div className='blog-status'>

@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to='/'>Home</Link>
         <HashLink to={"/#about"}>About Us</HashLink>
-        <HashLink to={"/#service"}>Service</HashLink>
+        <HashLink to={"/#service"}>Services</HashLink>
         <Link to='/gallery'>Gallery</Link>
         <Link to='/blog'>Blog</Link>
         <button className='btn-nav'>

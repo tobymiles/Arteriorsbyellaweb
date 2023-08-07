@@ -29,3 +29,9 @@ body {
 .Blog-gallery {
   padding-top: 60px;
 }
+
+.blog-heading p {
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 10px;
+}
