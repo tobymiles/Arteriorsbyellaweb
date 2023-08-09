@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const Navigate = useNavigate();
   return (
     <div className='Navbar'>
       <span className='nav-logo'>Arteriorsbyella</span>
@@ -15,8 +15,14 @@ const Navbar = () => {
         <HashLink to={"/#service"}>Services</HashLink>
         <Link to='/gallery'>Gallery</Link>
         <Link to='/blog'>Blog</Link>
-        <button className='btn-nav'>
-          <a href='/contact'>Contact</a>
+        <Link to='/singleblog'></Link>
+        <button
+          className='btn-nav'
+          onClick={() => {
+            Navigate("/contact");
+          }}
+        >
+          Contact
         </button>
       </div>
       <div className='social-icons'>

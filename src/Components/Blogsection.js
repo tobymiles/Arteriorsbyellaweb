@@ -1,16 +1,56 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Blogsection.css";
-import Arteriorimg1 from "../Assets/arteriorsbyellaimg1.png";
-import Arteriorimg2 from "../Assets/arteriorsbyella2.png";
-import Arteriorimg3 from "../Assets/arteriorsbyella3.png";
+
+// Utils
+import api from "../Client";
+import { Server } from "../Config";
 
 function Blogsection() {
+  const [blogPosts, setBlogPosts] = useState([]);
+
+  const getPosts = () => {
+    const blogPosts = api.listDocuments(Server.databaseID, Server.collectionID);
+    blogPosts.then(
+      (res) => {
+        setBlogPosts(res.documents);
+      },
+      (error) => {
+        console.error({ error });
+      }
+    );
+  };
+
+  useEffect(() => {
+    getPosts();
+  }, []);
   return (
     <div className='Blog-section'>
       <h3 className='Blog-title'>Blog</h3>
       <p className='Blog-subtitle'>Latest Blog Posts</p>
 
       <div className='Blog-gallery'>
+        {blogPosts.map((post) => (
+          <div key={post?.id} className='Blog-img1'>
+            <img src={post?.imageURL} alt='Arteriorimg1' />
+            <div id='blog-background'>
+              <h4>{post.blogTitle}</h4>
+              <div className='blog-status'>
+                <p>{post.date}</p>
+                <p>{post.postedBy}</p>
+                {/* <p>0 Comments</p> */}
+              </div>
+              <br></br>
+              <hr className='solid'></hr>
+              <p>{post.blogBody}</p>
+              <button className='btn-connect5'>
+                <a href='/contact'>Read More</a>
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* <div className='Blog-gallery'>
         <div className='Blog-img1'>
           <img src={Arteriorimg1} alt='Arteriorimg1' />
           <div id='blog-background'>
@@ -79,7 +119,7 @@ function Blogsection() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

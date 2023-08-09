@@ -23,7 +23,7 @@ body {
 .blog-heading {
   /* background-image: linear-gradient(45deg, #de6706c4, #0e0924),
     url("../Assets/arteriorsbyellaimg1.png"); */
-     background-image: linear-gradient(45deg, #0a0909c4, #00000083),
+  background-image: linear-gradient(45deg, #0a0909c4, #00000083),
     url("../Assets/arteriorsbyellaimg1.png");
   height: 50vh;
 }
@@ -36,4 +36,8 @@ body {
   color: #ffffff;
   font-size: 18px;
   padding-top: 10px;
+}
+
+button {
+  color: #ffffff;
 }
