@@ -3,10 +3,11 @@ body {
 }
 
 .Project {
-  height: 100vh;
+  height: auto;
   padding-top: 16px;
   background-color: #0e0924 !important;
   color: #ffffff;
+  padding-bottom: 60px;
 }
 
 .project-body {
